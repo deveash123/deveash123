@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Deveash - Game Developer, App Developer, Tech Entrepreneur</title>
+  <desc id="bannerDesc">Dark premium banner with the DEVEASH wordmark, role line, and a subtle code-bracket motif in cyan on near-black.</desc>
+
+  <defs>
+    <linearGradient id="bgFade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1420"/>
+      <stop offset="0.55" stop-color="#06080F"/>
+      <stop offset="1" stop-color="#06080F"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow" cx="0.82" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#00B8D9" stop-opacity="0.16"/>
+      <stop offset="0.6" stop-color="#00B8D9" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#00B8D9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00B8D9"/>
+      <stop offset="1" stop-color="#00B8D9" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00B8D9" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- base -->
+  <rect width="1280" height="420" fill="#06080F"/>
+  <rect width="1280" height="420" fill="url(#bgFade)"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <rect width="1280" height="420" fill="url(#cyanGlow)"/>
+
+  <!-- top accent rule -->
+  <rect x="0" y="0" width="1280" height="2" fill="url(#accentLine)"/>
+  <!-- bottom hairline -->
+  <rect x="0" y="418" width="1280" height="2" fill="#FFFFFF" opacity="0.05"/>
+
+  <!-- left content -->
+  <g font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+    <!-- status pill -->
+    <g>
+      <rect x="72" y="72" width="252" height="30" rx="15" fill="none" stroke="#00B8D9" stroke-opacity="0.45" stroke-width="1"/>
+      <circle cx="92" cy="87" r="4" fill="#00B8D9"/>
+      <text x="104" y="92" font-family="'Consolas', 'SF Mono', Menlo, monospace" font-size="12" letter-spacing="2.5" fill="#7DD3E8">OPEN TO WORK · CSE '28</text>
+    </g>
+
+    <text x="70" y="150" font-family="'Consolas', 'SF Mono', Menlo, monospace" font-size="15" letter-spacing="4" fill="#00B8D9">GAME · APP · AI</text>
+    <text x="68" y="232" font-size="96" font-weight="800" letter-spacing="6" fill="#FFFFFF">DEVEASH<tspan fill="#00B8D9">.</tspan></text>
+    <text x="72" y="274" font-size="22" font-weight="400" fill="#C3CDD9">Game Developer &#8226; App Developer &#8226; Tech Entrepreneur</text>
+    <text x="72" y="308" font-size="15" fill="#8B95A7">I build games, apps and AI-powered systems — from idea to production.</text>
+    <text x="72" y="344" font-family="'Consolas', 'SF Mono', Menlo, monospace" font-size="12.5" letter-spacing="1.5" fill="#5E6B80">TAMIL NADU, IN &#160;&#160;//&#160;&#160; SHIP × LEARN × REPEAT</text>
+  </g>
+
+  <!-- right motif: code brackets + orbit -->
+  <g transform="translate(1000, 210)" fill="none">
+    <circle r="118" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+    <circle r="118" stroke="#00B8D9" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="70 380" stroke-linecap="round" transform="rotate(-40)"/>
+    <circle r="86" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1" stroke-dasharray="4 8"/>
+    <circle cx="118" cy="0" r="4" fill="#00B8D9"/>
+    <circle cx="-84" cy="62" r="3" fill="#FFFFFF" opacity="0.35"/>
+    <circle cx="40" cy="-108" r="3" fill="#00B8D9" opacity="0.7"/>
+    <!-- brackets -->
+    <text x="-58" y="34" font-family="'Consolas', 'SF Mono', Menlo, monospace" font-size="96" font-weight="700" fill="#FFFFFF" opacity="0.92">&lt;/&gt;</text>
+    <!-- underline accent -->
+    <rect x="-58" y="52" width="116" height="3" fill="#00B8D9"/>
+  </g>
+
+  <!-- small corner ticks -->
+  <g stroke="#00B8D9" stroke-opacity="0.5" stroke-width="1.5">
+    <path d="M 24 40 L 24 24 L 40 24"/>
+    <path d="M 1256 24 L 1256 40 L 1240 40" opacity="0.6"/>
+    <path d="M 24 380 L 24 396 L 40 396" opacity="0.6"/>
+    <path d="M 1256 396 L 1256 380 L 1240 380" opacity="0.35"/>
+  </g>
+</svg>
