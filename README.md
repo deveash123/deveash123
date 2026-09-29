@@ -9,7 +9,7 @@
   <p>I build games, apps and AI-powered systems — from idea to production-ready products.</p>
 
   <p>
-    <a href="https://gdeveash.freelancing-team.workers.dev"><img src="https://img.shields.io/badge/Portfolio-00B8D9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://gdeveash.deveash.workers.dev"><img src="https://img.shields.io/badge/Portfolio-00B8D9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
     <a href="https://linkedin.com/in/deveashg/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:gdeveash@gmail.com"><img src="https://img.shields.io/badge/Email-2A3342?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   </p>
